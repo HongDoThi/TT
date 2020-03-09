@@ -1,0 +1,13 @@
+@media screen and (max-width: 620px) {
+    .wrapper {
+        .content {
+            flex-wrap: wrap;
+            .sidebar__left,
+            .content__middle,
+            .sidebar__right {
+                flex-basis: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
