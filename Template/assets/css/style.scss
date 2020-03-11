@@ -22,6 +22,7 @@ $color--black: #898787;
     .content {
         margin-top: 10px;
         overflow: hidden;
+        justify-content: space-between;
         .sidebar__left {
             background-color: #e8e8e847;
             flex-basis: 200px;
@@ -44,7 +45,7 @@ $color--black: #898787;
         }
         .content__middle {
             background-color: $bg;
-            width: calc(100% - 400px);
+            width: 939px;
             padding: 20px 10px;
             .content__listModule {
                 justify-content: space-between;
