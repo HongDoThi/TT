@@ -11,3 +11,70 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .wrapper {
+        .content {
+            .content__middle {
+                .content__listModule {
+                    .content__item {
+                        .item__title__lv2 {
+                            font-size: 12px;
+                        }
+                        .item__meta li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+    .wrapper {
+        .content {
+            .content__middle {
+                .content__listModule {
+                    .content__item {
+                        flex-basis: 48%!important;
+                        max-width: 48%!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .wrapper {
+        .content {
+            .content__middle {
+                .content__listModule {
+                    .content__item {
+                        flex-basis: 100%;
+                        max-width: 100%;
+                        margin-top: 20px;
+                        .item__title__lv1 {
+                            white-space: normal;
+                        }
+                        .item__title__lv2 {
+                            display: inline-block;
+                        }
+                        .item__meta {
+                            display: inline-block;
+                            float: right;
+                            margin-top: 10px;
+                            li {
+                                display: inline-block;
+                            }
+                        }
+                        // .item__meta li {
+                        //     font-size: 10px;
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
