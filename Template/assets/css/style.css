@@ -18,7 +18,8 @@ ul {
   .wrapper .content .sidebar__left {
     background-color: #e8e8e847;
     flex-basis: 200px;
-    max-width: 200px; }
+    max-width: 200px;
+    height: 151px; }
     .wrapper .content .sidebar__left ul li {
       background-color: #e8e8e8;
       margin-bottom: 5px;
@@ -63,7 +64,8 @@ ul {
     flex-basis: 200px;
     max-width: 200px;
     text-align: center;
-    padding: 20px; }
+    padding: 20px;
+    height: 151px; }
     .wrapper .content .sidebar__right p {
       color: #898787; }
 .wrapper footer {
