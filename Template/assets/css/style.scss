@@ -6,6 +6,7 @@ ul {
 $bg: #e8e8e8;
 $color--gray: gray;
 $color--black: #898787;
+$width: 100%;
 .dflex {
     display: flex;
 }
@@ -46,14 +47,17 @@ $color--black: #898787;
         }
         .content__middle {
             background-color: $bg;
-            width: 939px;
+            width: calc(100%-400px);
+            width: -moz-calc(100% - 400px);
+            width: -webkit-calc(100% - 410px);
             padding: 20px 10px;
             .content__listModule {
                 justify-content: space-between;
                 flex-wrap: wrap;
                 .content__item {
-                    flex-basis: 24%;
-                    max-width: 24%;
+                    flex-basis: 24.5%;
+                    max-width: 24.5%;
+                    margin-bottom: 20px;
                     .item__img {
                         img {
                             width: 100%;
@@ -65,16 +69,20 @@ $color--black: #898787;
                         overflow: hidden;
                         text-overflow: ellipsis;
                         max-width: 100%;
-                        white-space: nowrap;
                         margin-top: 10px;
+                        -webkit-box-orient: vertical;
+                        display: -webkit-box;
+                        font-size: 0.9rem;
+                        -webkit-line-clamp: 2;
                     }
                     .item__title__lv2 {
                         color: $color--black;
                         margin-top: 10px;
+                        font-size: 0.9rem;
                     }
                     .item__meta {
                         li {
-                            font-size: 14px;
+                            font-size: 0.8rem;
                             color: $color--black;
                             list-style-type: none;
                             &:first-child {
