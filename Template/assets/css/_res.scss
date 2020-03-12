@@ -12,12 +12,14 @@
     }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1052px) and (min-width: 769px) {
     .wrapper {
         .content {
             .content__middle {
                 .content__listModule {
                     .content__item {
+                        flex-basis: 49%;
+                        max-width: 49%;
                         .item__title__lv2 {
                             font-size: 12px;
                         }
@@ -31,14 +33,14 @@
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 415px) {
+@media screen and (max-width: 768px) {
     .wrapper {
         .content {
             .content__middle {
                 .content__listModule {
                     .content__item {
-                        flex-basis: 48%!important;
-                        max-width: 48%!important;
+                        flex-basis: 100%;
+                        max-width: 100%;
                     }
                 }
             }
