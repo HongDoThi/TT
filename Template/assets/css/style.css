@@ -88,7 +88,7 @@ ul {
   display: -webkit-box;
   font-size: 0.9rem;
   -webkit-line-clamp: 2;
-  padding: 0 5px;
+  padding: 0 7px;
   cursor: pointer;
 }
 
@@ -96,11 +96,11 @@ ul {
   color: #898787;
   margin-top: 10px;
   font-size: 0.9rem;
-  padding: 0 5px;
+  padding: 0 7px;
 }
 
 .wrapper .content .content__middle .content__listModule .content__item .item__meta {
-  padding: 0 5px;
+  padding: 0 7px;
 }
 
 .wrapper .content .content__middle .content__listModule .content__item .item__meta li {
