@@ -197,6 +197,14 @@ ul {
   }
 }
 
+@media screen and (max-width: 1074px) and (min-width: 1053px) {
+  .wrapper .content .content__middle .content__listModule .content__item {
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+    max-width: 33%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
